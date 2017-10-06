@@ -1,0 +1,30 @@
+{
+
+
+"Light": {
+    "service": "Lightbulb",
+    "name": "Light",
+    "topic": {
+      "setOn": "set/Light/STATE",
+      "statusOn": "status/Light/STATE"
+    },
+    "payload": {
+      "onTrue": 1,
+      "onFalse": 0
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "SWITCH"
+  },
+
+  "Temperature": {
+    "service": "TemperatureSensor",
+    "name": "Temperature",
+    "topic": {
+      "statusTemperature": "status/Temperature"
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "HMS100T"
+  }
+
+
+}

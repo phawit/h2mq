@@ -1,0 +1,195 @@
+{
+
+  "Light": {
+    "service": "Lightbulb",
+    "name": "Light",
+    "topic": {
+      "setOn": "set/Light/STATE",
+      "statusOn": "status/Light/STATE"
+    },
+    "payload": {
+      "onTrue": 1,
+      "onFalse": 0
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "SWITCH"
+  },
+  
+  "Light1": {
+    "service": "Lightbulb",
+    "name": "Light1",
+    "topic": {
+      "setOn": "set/Light1/STATE",
+      "statusOn": "status/Light1/STATE"
+    },
+    "payload": {
+      "onTrue": 1,
+      "onFalse": 0
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "SWITCH"
+  },
+
+  "Switch": {
+    "service": "Switch",
+    "name": "Switch",
+    "topic": {
+      "setOn": "set/Switch/STATE",
+      "statusOn": "status/Switch/STATE"
+    },
+    "payload": {
+      "onTrue": 1,
+      "onFalse": 0
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "SWITCH"
+  },
+
+  "Switch1": {
+    "service": "Switch",
+    "name": "Switch1",
+    "topic": {
+      "setOn": "set/Switch1/STATE",
+      "statusOn": "status/Switch1/STATE"
+    },
+    "payload": {
+      "onTrue": 1,
+      "onFalse": 0
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "SWITCH"
+  },
+
+  "Aircondition": {
+    "service": "Switch",
+    "name": "Air",
+    "topic": {
+      "setOn": "set/Air/STATE",
+      "statusOn": "status/Air/STATE"
+    },
+    "payload": {
+      "onTrue": 1,
+      "onFalse": 0
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "SWITCH"
+  },
+   
+
+  "Temperature": {
+    "service": "TemperatureSensor",
+    "name": "Temperature",
+    "topic": {
+      "statusTemperature": "status/Temperature"
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "HMS100T"
+  },
+
+  "Temperature1": {
+    "service": "TemperatureSensor",
+    "name": "Temperature1",
+    "topic": {
+      "statusTemperature": "status/Temperature1"
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "HMS100T"
+  },
+
+  "Temperature2": {
+    "service": "TemperatureSensor",
+    "name": "Temperature2",
+    "topic": {
+      "statusTemperature": "status/Temperature2"
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "HMS100T"
+  },
+
+
+  "Motion": {
+    "service": "MotionSensor",
+    "name": "Motion",
+    "topic": {
+      "statusMotionDetected": "status/Motion"
+    },
+    "payload": {
+      "onMotionDetected": 1
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "Motion Sensor"
+  },
+
+  "Motion1": {
+    "service": "MotionSensor",
+    "name": "Motion1",
+    "topic": {
+      "statusMotionDetected": "status/Motion1"
+    },
+    "payload": {
+      "onMotionDetected": 1
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "Motion Sensor"
+  },
+
+  "Motion2": {
+    "service": "MotionSensor",
+    "name": "Motion2",
+    "topic": {
+      "statusMotionDetected": "status/Motion2"
+    },
+    "payload": {
+      "onMotionDetected": 1
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "Motion Sensor"
+  },
+
+  "Motion3": {
+    "service": "MotionSensor",
+    "name": "Motion3",
+    "topic": {
+      "statusMotionDetected": "status/Motion3"
+    },
+    "payload": {
+      "onMotionDetected": 1
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "Motion Sensor"
+  },
+  
+
+  "Door": {
+    "service": "ContactSensor",
+    "name": "Door",
+    "topic": {
+      "statusContactSensorState": "status/Door/STATE",
+      "statusLowBattery": "status/Door/LOWBAT"
+    },
+    "payload": {
+      "onContactDetected": 0,
+      "onLowBattery": 1
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "SHUTTER_CONTACT"
+  },
+
+
+  "Key": {
+    "service": "LockMechanism",
+    "name": "Key",
+    "topic": {
+      "setLock": "set/Key/STATE",
+      "statusLock": "status/Key/STATE"
+    },
+    "payload": {
+      "lockUnsecured": 1,
+      "lockSecured": 0
+    },
+    "manufacturer": "phawit-homekit",
+    "model": "KEYMATIC"
+  }
+
+
+}
